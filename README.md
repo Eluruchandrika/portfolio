@@ -27,7 +27,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/0x1Luffy/New-Portfolio
+   git clone https://github.com/Eluruchandrika/portfolio.git
    ```
 
 2. **Navigate to the Project Directory:**
