@@ -2,7 +2,7 @@ import Link from "next/link"
 import Title from "./Title"
 import { cn } from "@/lib/utils"
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
-import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux  } from "react-icons/si";
+import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux, SiFlask, SiNextdotjs, SiSupabase, SiBootstrap, SiNodedotjs  } from "react-icons/si";
 import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb";
 
 
@@ -10,18 +10,25 @@ const Projects = () => {
 
     const projects = [
         {
-          title:"PayME Online Payments App",
-          tech: [SiJavascript,  SiReact, TbBrandNodejs, SiMongodb, SiExpress, SiTailwindcss],
-          Link: "https://pay-me-rho.vercel.app/",
-          cover: "/Final.jpg",
+          title:"Argo",
+          tech: [SiJavascript,  SiReact, TbBrandNodejs,SiFlask, SiMongodb, SiExpress, SiTailwindcss],
+          Link: "https://argo-xit.onrender.com/",
+          cover: "/Argo.png",
           background:"bg-indigo-500"
         },
         {
-            title:"Ecommerce Backend",
-            tech: [SiTypescript, SiPostgresql, SiPrisma, TbBrandNodejs, SiExpress,],
-            Link: "https://github.com/0x1Luffy/Ecommerce_Backend",
-            cover: "/EcommerceBackend.png",
+            title:"Perplexity",
+            tech: [SiJavascript,SiNextdotjs,SiReact, SiSupabase, SiTailwindcss],
+            Link: "https://perplexity-eight.vercel.app/",
+            cover: "/Perplexity.png",
             background:"bg-pink-500"
+          },
+          {
+            title:"News-Mag",
+            tech: [SiJavascript,SiReact, SiBootstrap, SiNodedotjs, SiExpress],
+            Link: "https://newsmags.netlify.app/",
+            cover: "/NewsMag.png",
+            background:"bg-fuchsia-500"
           },
           {
             title:"Shopping Cart(Redux Toolkit)",
@@ -41,7 +48,7 @@ const Projects = () => {
             title:"React Admin Dashboard",
             tech: [SiTypescript, SiReact,SiTailwindcss],
             Link: "https://react-admin-dashboard-pink.vercel.app/",
-            cover: "/ReactAdminPannel@ChetanKesare.png",
+            cover: "/ReactAdminPannel.png",
             background:"bg-fuchsia-500"
           },
           

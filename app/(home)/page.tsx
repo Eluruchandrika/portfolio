@@ -1,3 +1,5 @@
+import { About } from "./components/About"
+import EducationSection from "./components/Education"
 import Footer from "./components/Footer"
 import HeroSection from "./components/HeroSection"
 import Navbar from "./components/Navbar"
@@ -20,7 +22,9 @@ const page = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20 ">
+        <About />
         <Skills/>
+        <EducationSection />
         <Projects/>
         <Footer/>
       </div>

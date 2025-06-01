@@ -12,18 +12,18 @@ const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	metadataBase: new URL("https://chetankesare9.vercel.app/"),
 
-	title: 'Chetan Kesare',
+	title: 'Chandrika Eluru | Portfolio',
 	authors: {
-		name: "Chetan Kesare",
+		name: "Chandrika Eluru",
 	},
 
 	description:
 		"Evolving Code, Self-Taught Spirit: Web Development Journey from India.",
 	openGraph: {
-		title: "Chetan Kesare",
+		title: "Chandrika Eluru",
 		description:
 			"Evolving Code, Self-Taught Spirit: Web Development Journey from India.",
-		url: "https://chetankesare9.vercel.app/",
+		url: "https://vercel.com/chandrikas-projects-252f764c",
 		siteName: "Chetan Kesare",
 		images: "/newPortfolio.png",
 		type: "website",
