@@ -1,6 +1,3 @@
-<div style="text-align: center;">
-    <img src="https://i.ibb.co/Jj5PRsg/new-Portfolio.png" alt="Portfolio Banner" style="max-width: 100%; height: auto;">
-</div>
 
 # Portfolio Website
 
