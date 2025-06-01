@@ -39,8 +39,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-		<link rel="shortcut icon" href="/Logo1.png" />
-      <body className={space_Grotesk.className}>
+ 		<link rel="icon" type="image/png" href="/Logo1.png" />
+       <body className={space_Grotesk.className}>
       <ThemeProvider
             attribute="class"
             defaultTheme="dark"
