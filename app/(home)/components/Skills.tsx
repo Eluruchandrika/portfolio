@@ -136,7 +136,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="w-full py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-950">
+    <section className="w-full py-20 bg-gradient-to-br from-black-50 to-black-100 dark:from-black-900 dark:to-black-950">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <Title text="My Skills 🚀" className="mb-16" /> {/* Added margin-bottom */}
 

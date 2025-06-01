@@ -142,7 +142,7 @@ const EducationSection = () => {
   ];
 
   return (
-    <section id="education" className="py-20 bg-gray-950 relative overflow-hidden">
+    <section id="education" className="py-20 bg-black-950 relative overflow-hidden">
       {/* Background Blobs */}
       <div className="absolute inset-0 z-0 opacity-20 pointer-events-none">
         <div className="absolute -top-32 -left-32 w-96 h-96 bg-blue-600 rounded-full blur-3xl opacity-10"></div>
@@ -156,9 +156,9 @@ const EducationSection = () => {
         <div className="relative border-l-4 border-gray-700 pl-8 md:pl-12 space-y-14">
           {educationData.map((entry, index) => (
             <div key={index} className="relative">
-              <div className="absolute -left-6 top-0 w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 border-2 border-white shadow-md flex items-center justify-center text-white text-xs">
+              {/* <div className="absolute -left-6 top-0 w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 border-2 border-white shadow-md flex items-center justify-center text-white text-xs">
                 <FaBookOpen className="text-sm" />
-              </div>
+              </div> */}
               <EducationCard {...entry} />
             </div>
           ))}
