@@ -53,7 +53,7 @@ const HeroSection = () => {
         </p>
 
         <div className="flex gap-4">
-          <Link href="mailto:chetankesare06@gmail.com" className="group">
+          <Link href="mailto:chandrikaeluru2005@gmail.com" className="group">
             <Title text="Let's Connect " />
           </Link>
 

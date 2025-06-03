@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		images: "/newPortfolio.png",
 		type: "website",
 	},
-	keywords: ["personal portfolio website", "portfolio website templete", "web developer", "web Development roadmap", "react portfolio website", "3d portfolio website", "three.js portfolio website", "portfolio website github","portfolio website template","free portfolio website", "chandrika ELuru", "chandrika ELuru github", "chandrika ELuru linkedin"],
+	keywords: ["personal portfolio website", "portfolio website templete", "web developer", "web Development roadmap", "react portfolio website", "3d portfolio website", "three.js portfolio website", "portfolio website github","portfolio website template","free portfolio website", "chandrika ELuru", "chandrika ELuru github", "chandrika ELuru linkedin", "chandrika ELuru from sangli"],
 };
 
 
@@ -39,8 +39,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
- 		<link rel="icon" type="image/png" href="/Logo1.png" />
-       <body className={space_Grotesk.className}>
+		<link rel="shortcut icon" href="./favicon.ico" />
+      <body className={space_Grotesk.className}>
       <ThemeProvider
             attribute="class"
             defaultTheme="dark"

@@ -38,7 +38,7 @@ export function MovingBorderBtn({
 
   const handleDownloadResume = () => {
     
-    const resumeUrl = 'https://drive.google.com/uc?export=download&id=1Q57CXeUF2nMrFUqWe4yGHVVoSAmnWu8k';
+    const resumeUrl = 'https://drive.google.com/file/d/1hss_yIEv9gmfkY310pgGB_opDYNASSmw/view?usp=drivesdk';
     
     const link = document.createElement('a');
     link.href = resumeUrl;

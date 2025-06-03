@@ -32,7 +32,7 @@ To get started with the project, follow these steps:
 
 2. **Navigate to the Project Directory:**
    ```bash
-   cd portfolio-next
+   cd portfolio
    ```
 
 3. **Install Dependencies:**
