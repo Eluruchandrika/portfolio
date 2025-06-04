@@ -45,7 +45,7 @@ export function About() {
                 <span>
                   {currentLang === "ta"
                     ? "வேலம்மாள் பொறியியல்கல்லூரியில் பட்டம் பெற்ற..."
-                    : "A proud graduate of Parul Institute of Engineering and Technology, where I earned my Bachelor's degree in Electronics and Communication Engineering and laid a strong foundation in tech."}
+                    : "A proud graduate of Parul Institute of Engineering and Technology, where I earned my Bachelor's degree in Computer science Engineering and laid a strong foundation in tech."}
                 </span>
               </li>
               <li className="flex items-start gap-3">
