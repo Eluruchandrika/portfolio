@@ -31,26 +31,21 @@ const Projects = () => {
             background:"bg-fuchsia-500"
           },
           {
+            title:"Etsy Clone",
+            tech: [SiHtml5, SiCss3, SiJavascript],
+            Link: "https://eluruchandrika.github.io/etsy/",
+            cover: "/etsy.png",
+            background:"bg-cyan-500"
+          },
+          {
             title:"Shopping Cart(Redux Toolkit)",
             tech: [SiReact, SiRedux, SiTailwindcss],
             Link: "https://redux-toolkt-cart.vercel.app/",
             cover: "/ReduxToolkit.png",
             background:"bg-cyan-500"
           },
-          {
-            title:"Food Vista Order Shoes Online",
-            tech: [SiHtml5, SiCss3, SiTailwindcss, SiJavascript],
-            Link: "https://foot-vista.vercel.app/",
-            cover: "/FootVistaThumbnail.png",
-            background:"bg-green-500"
-          },
-          {
-            title:"React Admin Dashboard",
-            tech: [SiTypescript, SiReact,SiTailwindcss],
-            Link: "https://react-admin-dashboard-pink.vercel.app/",
-            cover: "/ReactAdminPannel.png",
-            background:"bg-fuchsia-500"
-          },
+          
+         
           
     ]
   return (
