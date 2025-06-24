@@ -61,7 +61,7 @@ export function About() {
             {/* Resume Button */}
             <div className="pt-4 animate-slide-in-bottom">
               <a
-                href="https://drive.google.com/file/d/1hss_yIEv9gmfkY310pgGB_opDYNASSmw/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1w9CZzVblkG6DvG_pn1oYtJjGRUjQG1Xa/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-br from-blue-600 to-purple-700 text-white font-semibold rounded-full shadow-md hover:scale-105 hover:shadow-lg transition-all"

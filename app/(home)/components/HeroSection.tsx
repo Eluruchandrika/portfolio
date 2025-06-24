@@ -48,7 +48,7 @@ const HeroSection = () => {
           Hello! I am Chandrika
         </h1>
         <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-          Building the web one pixel at a time. A self-taught developer from India on a mission to craft elegant, high-performance
+          Building the web one pixel at a time. A self-taught developer on a mission to craft elegant, high-performance
           experiences.
         </p>
 

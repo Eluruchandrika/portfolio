@@ -2,47 +2,55 @@ import Link from "next/link"
 import Title from "./Title"
 import { cn } from "@/lib/utils"
 import { DirectionAwareHover } from "@/components/ui/direction-aware-hover"
-import { SiReact, SiJavascript, SiTypescript, SiPostgresql, SiMongodb,SiPrisma, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux, SiFlask, SiNextdotjs, SiSupabase, SiBootstrap, SiNodedotjs  } from "react-icons/si";
-import { TbBrandNextjs, TbBrandNodejs } from "react-icons/tb";
+import { SiReact, SiJavascript, SiMongodb, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiRedux, SiFlask, SiNextdotjs, SiSupabase, SiBootstrap, SiNodedotjs, SiFastapi  } from "react-icons/si";
+import { TbBrandNodejs } from "react-icons/tb";
 
 
 const Projects = () => {
 
     const projects = [
-        {
-          title:"Argo",
-          tech: [SiJavascript,  SiReact, TbBrandNodejs,SiFlask, SiMongodb, SiExpress, SiTailwindcss],
-          Link: "https://argo-xit.onrender.com/",
-          cover: "/Argo.png",
-          background:"bg-indigo-500"
+      {
+          title:"StoryMedia",
+          tech: [SiNextdotjs, SiFastapi,SiJavascript,SiTailwindcss],
+          Link: "https://story-media-five.vercel.app/",
+          cover: "/StoryMedia.png",
+          background:"bg-fuchsia-500"
         },
+        
         {
             title:"Perplexity",
             tech: [SiJavascript,SiNextdotjs,SiReact, SiSupabase, SiTailwindcss],
             Link: "https://perplexity-eight.vercel.app/",
             cover: "/Perplexity.png",
-            background:"bg-pink-500"
+            background:"bg-cyan-500"
           },
+          {
+          title:"Argo",
+          tech: [SiJavascript,  SiReact, TbBrandNodejs,SiFlask, SiMongodb, SiExpress, SiTailwindcss],
+          Link: "https://argo-xit.onrender.com/",
+          cover: "/Argo.png",
+          background:"bg-green-500"
+        },
           {
             title:"News-Mag",
             tech: [SiJavascript,SiReact, SiBootstrap, SiNodedotjs, SiExpress],
             Link: "https://newsmags.netlify.app/",
             cover: "/NewsMag.png",
-            background:"bg-fuchsia-500"
+            background:"bg-orange-500"
           },
           {
             title:"Etsy Clone",
             tech: [SiHtml5, SiCss3, SiJavascript],
             Link: "https://eluruchandrika.github.io/etsy/",
             cover: "/etsy.png",
-            background:"bg-cyan-500"
+            background:"bg-pink-500"
           },
           {
             title:"Shopping Cart(Redux Toolkit)",
             tech: [SiReact, SiRedux, SiTailwindcss],
             Link: "https://redux-toolkt-cart.vercel.app/",
             cover: "/ReduxToolkit.png",
-            background:"bg-cyan-500"
+            background:"bg-indigo-500"
           },
           
          
