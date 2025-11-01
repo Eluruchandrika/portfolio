@@ -23,7 +23,7 @@ export function About() {
           <div className="relative w-48 h-48 md:w-64 md:h-64 z-10">
             <Image
               src="/Professional_edited.jpg"
-              alt="Saravana's Professional Image"
+              alt="chandrika's Professional Image"
               fill
               className="rounded-full border-4 border-blue-500 shadow-xl object-cover transition-transform duration-300 hover:scale-105"
             />
